@@ -1,8 +1,9 @@
 using './main.bicep'
 
-param prefix = 'secure'
-param suffix = 'test'
-param userObjectId = '<user-object-id'
+param prefix = 'answers'
+param suffix = 'dev'
+// az account show get the id  and paste below
+param userObjectId = 'f4cadff2-0acc-4809-9c54-1059773ec5ed'
 param keyVaultEnablePurgeProtection = false
 param acrEnabled = false
 param nspEnabled = false

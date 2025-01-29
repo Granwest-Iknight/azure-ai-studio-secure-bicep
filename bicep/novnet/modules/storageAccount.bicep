@@ -189,7 +189,7 @@ resource storageAccountContributorUserRoleAssignment 'Microsoft.Authorization/ro
   scope: storageAccount
   properties: {
     roleDefinitionId: storageAccountContributorRoleDefinition.id
-    principalType: 'User'
+    principalType: 'ServicePrincipal'
     principalId: userObjectId
   }
 }
@@ -199,7 +199,7 @@ resource storageBlobDataContributorUserRoleAssignment 'Microsoft.Authorization/r
   scope: storageAccount
   properties: {
     roleDefinitionId: storageBlobDataContributorRoleDefinition.id
-    principalType: 'User'
+    principalType: 'ServicePrincipal'
     principalId: userObjectId
   }
 }
@@ -209,7 +209,7 @@ resource storageFileDataPrivilegedContributorUserRoleAssignment 'Microsoft.Autho
   scope: storageAccount
   properties: {
     roleDefinitionId: storageFileDataPrivilegedContributorRoleDefinition.id
-    principalType: 'User'
+    principalType: 'ServicePrincipal'
     principalId: userObjectId
   }
 }
@@ -219,7 +219,7 @@ resource storageTableDataContributorUserRoleAssignment 'Microsoft.Authorization/
   scope: storageAccount
   properties: {
     roleDefinitionId: storageTableDataContributorRoleDefinition.id
-    principalType: 'User'
+    principalType: 'ServicePrincipal'
     principalId: userObjectId
   }
 }

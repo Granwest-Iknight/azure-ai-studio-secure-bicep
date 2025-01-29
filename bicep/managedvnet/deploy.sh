@@ -9,7 +9,7 @@ declare -A variables=(
   [parameters]="main.bicepparam"
   [resourceGroupName]="ai-vnet-rg"
   [virtualNetworkResourceGroupName]="ai-vnet-rg"
-  [location]="westeurope"
+  [location]="westus"
   [validateTemplate]=0
   [useWhatIf]=0
 )

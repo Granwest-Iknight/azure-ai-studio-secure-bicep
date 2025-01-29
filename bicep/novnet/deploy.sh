@@ -7,8 +7,8 @@ source ./functions.sh
 declare -A variables=(
   [template]="main.bicep"
   [parameters]="main.bicepparam"
-  [resourceGroupName]="rg-ai-foundry-secure"
-  [location]="eastus"
+  [resourceGroupName]="rg-dev-ai-answers"
+  [location]="westus"
   [validateTemplate]=0
   [useWhatIf]=0
 )

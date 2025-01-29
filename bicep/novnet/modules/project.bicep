@@ -145,7 +145,7 @@ resource azureMLDataScientistUserRoleAssignment 'Microsoft.Authorization/roleAss
   scope: project
   properties: {
     roleDefinitionId: azureMLDataScientistRole.id
-    principalType: 'User'
+    principalType: 'ServicePrincipal'
     principalId: userObjectId
   }
 }

@@ -1,11 +1,11 @@
 // Parameters
 @description('Specifies the name prefix for all the Azure resources.')
-@minLength(4)
+@minLength(3)
 @maxLength(10)
 param prefix string = substring(uniqueString(resourceGroup().id), 0, 4)
 
 @description('Specifies the name suffix or all the Azure resources.')
-@minLength(4)
+@minLength(3)
 @maxLength(10)
 param suffix string = substring(uniqueString(resourceGroup().id), 0, 4)
 

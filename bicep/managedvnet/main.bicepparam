@@ -2,8 +2,8 @@ using './main.bicep'
 
 param prefix = 'bami'
 param suffix = 'test'
-//param userObjectId = '0c5267b2-01f3-4a59-970e-0d9218d5412e'
-param userObjectId = '0498653d-ca59-494a-97d3-c8e971732461'
+// az account show get the id  and paste below
+param userObjectId = 'f4cadff2-0acc-4809-9c54-1059773ec5ed'
 param keyVaultEnablePurgeProtection = false
 param acrEnabled = true
 param vmAdminUsername = 'azadmin'
