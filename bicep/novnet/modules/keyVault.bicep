@@ -119,7 +119,7 @@ resource keyVaultAdministratorUserRoleAssignment 'Microsoft.Authorization/roleAs
   scope: keyVault
   properties: {
     roleDefinitionId: keyVaultAdministratorRoleDefinition.id
-    principalType: 'ServicePrincipal'
+    principalType: 'User'
     principalId: userObjectId
   }
 }

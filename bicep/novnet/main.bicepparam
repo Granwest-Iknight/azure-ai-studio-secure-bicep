@@ -1,9 +1,9 @@
 using './main.bicep'
 
-param prefix = 'answers'
-param suffix = 'dev'
+param prefix = 'CHAT'
+param suffix = 'tst'
 // az account show get the id  and paste below
-param userObjectId = 'f4cadff2-0acc-4809-9c54-1059773ec5ed'
+param userObjectId = '4e62b871-6174-453f-9be7-e95ab2e6a7cc'
 param keyVaultEnablePurgeProtection = false
 param acrEnabled = false
 param nspEnabled = false
@@ -30,6 +30,6 @@ param openAiDeployments = [
   }
 ]
 param tags = {
-  environment: 'development'
+  environment: 'test'
   iac: 'bicep'
 }

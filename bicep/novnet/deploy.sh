@@ -7,7 +7,7 @@ source ./functions.sh
 declare -A variables=(
   [template]="main.bicep"
   [parameters]="main.bicepparam"
-  [resourceGroupName]="rg-dev-ai-answers"
+  [resourceGroupName]="GIA-AIServices-rg"
   [location]="westus"
   [validateTemplate]=0
   [useWhatIf]=0
